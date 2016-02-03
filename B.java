@@ -1,6 +1,7 @@
 public class classB {
 	private int B1;
 	private float B2;
+	private String B3;
 	
 	public int getB1() {
 		return B1;
