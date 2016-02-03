@@ -3,7 +3,15 @@ public class classA {
 	private int A1;
 	private float A2;
 	private String A3;
+	private String Aprinc4;
 	
+	public void setAprinc4(String aprinc4) {
+		Aprinc4 = aprinc4;
+	}
+	public String getAprinc4(){
+		return Aprinc4;
+	}
+
 	public void setA3(String a3) {
 		A3 = a3;
 	}
