@@ -10,7 +10,7 @@ public class classA {
 	public String getA3(){
 		return A3;
 	}
-	
+
 	public int getA1() {
 		return A1;
 	}
@@ -22,5 +22,8 @@ public class classA {
 	}
 	public void setA2(float a2) {
 		A2 = a2;
+	}
+	public float soma(){
+		return A2+A1;
 	}
 }
