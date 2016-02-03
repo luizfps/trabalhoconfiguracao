@@ -1,8 +1,16 @@
 public class classB {
-	private int B1;
-	private float B2;
+	int A1;
+	float A2;
+	String B4;
+
 	
-	public int getB1() {
+	public string getB4() {
+		return B4;
+	}
+	public void setB4(string b4) {
+		B4= b4;
+	}	
+	public int getA1() {
 		return B1;
 	}
 	public void setB1(int b1) {
