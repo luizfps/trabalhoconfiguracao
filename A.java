@@ -4,7 +4,16 @@ public class classA {
 	private float A2;
 	private String A3;
 	private String Aprinc4;
-	
+
+	String Aramo4;
+
+	public void setAramo4(String aramo4) {
+		Aramo4 = aramo4;
+	}
+	public String getAramo4(){
+		return Aramo4;
+	}
+
 	public void setAprinc4(String aprinc4) {
 		Aprinc4 = aprinc4;
 	}
@@ -32,6 +41,6 @@ public class classA {
 		A2 = a2;
 	}
 	public float soma(){
-		return A2+A1;
+		return A2+A1;	
 	}
 }
