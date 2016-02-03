@@ -2,10 +2,13 @@ public class classA {
 
 	private int A1;
 	private float A2;
+	private String A3;
 	
-	
-	public void setA1(string a3) {
+	public void setA3(String a3) {
 		A3 = a3;
+	}
+	public String getA3(){
+		return A3;
 	}
 	
 	public int getA1() {
